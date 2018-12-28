@@ -27,3 +27,5 @@ source/blog/tmp/*
 !/source/blog/log/.keep
 !/source/blog/tmp/.keep
 source/blog/Gemfile.lock
+html/before/.idea/
+html/behind/.idea/
