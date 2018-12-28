@@ -20,5 +20,5 @@ source/blog/config/settings.local.yml
 source/blog/config/settings/*.local.yml
 source/blog/config/environments/*.local.yml
 source/blog/config/database.yml
-source/blog/.idea/*
+source/blog/.idea
 
