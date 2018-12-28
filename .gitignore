@@ -24,3 +24,4 @@ source/blog/.idea
 
 source/blog/log
 source/blog/tmp
+source/blog/Gemfile.lock
