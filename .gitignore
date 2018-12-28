@@ -22,6 +22,8 @@ source/blog/config/environments/*.local.yml
 source/blog/config/database.yml
 source/blog/.idea
 
-source/blog/log
-source/blog/tmp
+source/blog/log/*
+source/blog/tmp/*
+!/source/blog/log/.keep
+!/source/blog/tmp/.keep
 source/blog/Gemfile.lock
