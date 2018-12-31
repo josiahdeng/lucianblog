@@ -1,601 +1,429 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-	
-	<!-- start: Meta -->
-	<meta charset="utf-8" />
-	<title>SimpliQ - Flat & Responsive Bootstrap Admin Template</title>
-	<meta name="description" content="SimpliQ - Flat & Responsive Bootstrap Admin Template." />
-	<meta name="author" content="Łukasz Holeczek" />
-	<meta name="keyword" content="SimpliQ, Dashboard, Bootstrap, Admin, Template, Theme, Responsive, Fluid, Retina" />
-	<!-- end: Meta -->
-	
-	<!-- start: Mobile Specific -->
-	<meta name="viewport" content="width=device-width, initial-scale=1" />
-	<!-- end: Mobile Specific -->
-	
-	<!-- start: CSS -->
-	<link href="css/bootstrap.min.css" rel="stylesheet" />
-	<link href="css/bootstrap-responsive.min.css" rel="stylesheet" />
-	<link href="css/style.min.css" rel="stylesheet" />
-	<link href="css/style-responsive.min.css" rel="stylesheet" />
-	<link href="css/retina.css" rel="stylesheet" />
-	<!-- end: CSS -->
-	
-
-	<!-- The HTML5 shim, for IE6-8 support of HTML5 elements -->
-	<!--[if lt IE 9]>
-	  	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-		<link id="ie-style" href="css/ie.css" rel="stylesheet">
-	<![endif]-->
-	
-	<!--[if IE 9]>
-		<link id="ie9style" href="css/ie9.css" rel="stylesheet">
-	<![endif]-->
-	
-	<!-- start: Favicon and Touch Icons -->
-	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="ico/apple-touch-icon-144-precomposed.png" />
-	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="ico/apple-touch-icon-114-precomposed.png" />
-	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="ico/apple-touch-icon-72-precomposed.png" />
-	<link rel="apple-touch-icon-precomposed" href="ico/apple-touch-icon-57-precomposed.png" />
-	<link rel="shortcut icon" href="ico/favicon.png" />
-	<!-- end: Favicon and Touch Icons -->	
-		
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head>
-
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<title>Typography - Ready Bootstrap Dashboard</title>
+	<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' />
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i">
+	<link rel="stylesheet" href="assets/css/ready.css">
+	<link rel="stylesheet" href="assets/css/demo.css">
+</head>
 <body>
-		<!-- start: Header -->
-	<div class="navbar">
-		<div class="navbar-inner">
-			<div class="container-fluid">
-				<a class="btn btn-navbar" data-toggle="collapse" data-target=".top-nav.nav-collapse,.sidebar-nav.nav-collapse">
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
+	<div class="wrapper">
+		<div class="main-header">
+			<div class="logo-header">
+				<a href="index.html" class="logo">
+					Ready Dashboard
 				</a>
-				<a id="main-menu-toggle" class="hidden-phone open"><i class="icon-reorder"></i></a>		
-				<div class="row-fluid">
-				<a class="brand span2" href="index.html"><span>SimpliQ</span></a>
-				</div>		
-				<!-- start: Header Menu -->
-				<div class="nav-no-collapse header-nav">
-					<ul class="nav pull-right">
-						<li class="dropdown hidden-phone">
-							<a class="btn dropdown-toggle" data-toggle="dropdown" href="#">
-								<i class="icon-warning-sign"></i>
+				<button class="navbar-toggler sidenav-toggler ml-auto" type="button" data-toggle="collapse" data-target="collapse" aria-controls="sidebar" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<button class="topbar-toggler more"><i class="la la-ellipsis-v"></i></button>
+			</div>
+			<nav class="navbar navbar-header navbar-expand-lg">
+				<div class="container-fluid">
+					
+					<form class="navbar-left navbar-form nav-search mr-md-3" action="">
+						<div class="input-group">
+							<input type="text" placeholder="Search ..." class="form-control">
+							<div class="input-group-append">
+								<span class="input-group-text">
+									<i class="la la-search search-icon"></i>
+								</span>
+							</div>
+						</div>
+					</form>
+					<ul class="navbar-nav topbar-nav ml-md-auto align-items-center">
+						<li class="nav-item dropdown hidden-caret">
+							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								<i class="la la-envelope"></i>
 							</a>
-							<ul class="dropdown-menu notifications">
-								<li class="dropdown-menu-title">
- 									<span>You have 11 notifications</span>
-								</li>	
-                            	<li>
-                                    <a href="#">
-										<span class="icon blue"><i class="icon-user"></i></span>
-										<span class="message">New user registration</span>
-										<span class="time">1 min</span> 
-                                    </a>
-                                </li>
-								<li>
-                                    <a href="#">
-										<span class="icon green"><i class="icon-comment-alt"></i></span>
-										<span class="message">New comment</span>
-										<span class="time">7 min</span> 
-                                    </a>
-                                </li>
-								<li>
-                                    <a href="#">
-										<span class="icon green"><i class="icon-comment-alt"></i></span>
-										<span class="message">New comment</span>
-										<span class="time">8 min</span> 
-                                    </a>
-                                </li>
-								<li>
-                                    <a href="#">
-										<span class="icon green"><i class="icon-comment-alt"></i></span>
-										<span class="message">New comment</span>
-										<span class="time">16 min</span> 
-                                    </a>
-                                </li>
-								<li>
-                                    <a href="#">
-										<span class="icon blue"><i class="icon-user"></i></span>
-										<span class="message">New user registration</span>
-										<span class="time">36 min</span> 
-                                    </a>
-                                </li>
-								<li>
-                                    <a href="#">
-										<span class="icon yellow"><i class="icon-shopping-cart"></i></span>
-										<span class="message">2 items sold</span>
-										<span class="time">1 hour</span> 
-                                    </a>
-                                </li>
-								<li class="warning">
-                                    <a href="#">
-										<span class="icon red"><i class="icon-user"></i></span>
-										<span class="message">User deleted account</span>
-										<span class="time">2 hour</span> 
-                                    </a>
-                                </li>
-								<li class="warning">
-                                    <a href="#">
-										<span class="icon red"><i class="icon-shopping-cart"></i></span>
-										<span class="message">Transaction was canceled</span>
-										<span class="time">6 hour</span> 
-                                    </a>
-                                </li>
-								<li>
-                                    <a href="#">
-										<span class="icon green"><i class="icon-comment-alt"></i></span>
-										<span class="message">New comment</span>
-										<span class="time">yesterday</span> 
-                                    </a>
-                                </li>
-								<li>
-                                    <a href="#">
-										<span class="icon blue"><i class="icon-user"></i></span>
-										<span class="message">New user registration</span>
-										<span class="time">yesterday</span> 
-                                    </a>
-                                </li>
-                                <li class="dropdown-menu-sub-footer">
-                            		<a>View all notifications</a>
-								</li>	
-							</ul>
+							<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+								<a class="dropdown-item" href="#">Action</a>
+								<a class="dropdown-item" href="#">Another action</a>
+								<div class="dropdown-divider"></div>
+								<a class="dropdown-item" href="#">Something else here</a>
+							</div>
 						</li>
-						<!-- start: Notifications Dropdown -->
-						<li class="dropdown hidden-phone">
-							<a class="btn dropdown-toggle" data-toggle="dropdown" href="#">
-								<i class="icon-tasks"></i>
+						<li class="nav-item dropdown hidden-caret">
+							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								<i class="la la-bell"></i>
+								<span class="notification">3</span>
 							</a>
-							<ul class="dropdown-menu tasks">
+							<ul class="dropdown-menu notif-box" aria-labelledby="navbarDropdown">
 								<li>
-									<span class="dropdown-menu-title">You have 17 tasks in progress</span>
-                            	</li>
-								<li>
-                                    <a href="#">
-										<span class="header">
-											<span class="title">iOS Development</span>
-											<span class="percent"></span>
-										</span>
-                                        <div class="taskProgress progressSlim progressBlue">80</div> 
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-										<span class="header">
-											<span class="title">Android Development</span>
-											<span class="percent"></span>
-										</span>
-                                        <div class="taskProgress progressSlim progressYellow">47</div> 
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-										<span class="header">
-											<span class="title">Django Project For Google</span>
-											<span class="percent"></span>
-										</span>
-                                        <div class="taskProgress progressSlim progressRed">32</div> 
-                                    </a>
-                                </li>
-								<li>
-                                    <a href="#">
-										<span class="header">
-											<span class="title">SEO for new sites</span>
-											<span class="percent"></span>
-										</span>
-                                        <div class="taskProgress progressSlim progressGreen">63</div> 
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-										<span class="header">
-											<span class="title">New blog posts</span>
-											<span class="percent"></span>
-										</span>
-                                        <div class="taskProgress progressSlim progressPink">80</div> 
-                                    </a>
-                                </li>
-								<li>
-                            		<a class="dropdown-menu-sub-footer">View all tasks</a>
-								</li>	
-							</ul>
-						</li>
-						<!-- end: Notifications Dropdown -->
-						<!-- start: Message Dropdown -->
-						<li class="dropdown hidden-phone">
-							<a class="btn dropdown-toggle" data-toggle="dropdown" href="#">
-								<i class="icon-envelope"></i>
-							</a>
-							<ul class="dropdown-menu messages">
-								<li>
-									<span class="dropdown-menu-title">You have 9 messages</span>
-								</li>	
-                            	<li>
-                                    <a href="#">
-										<span class="avatar"><img src="img/avatar.jpg" alt="Avatar" /></span>
-										<span class="header">
-											<span class="from">
-										    	Łukasz Holeczek
-										     </span>
-											<span class="time">
-										    	6 min
-										    </span>
-										</span>
-                                        <span class="message">
-                                            Lorem ipsum dolor sit amet consectetur adipiscing elit, et al commore
-                                        </span>  
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-										<span class="avatar"><img src="img/avatar2.jpg" alt="Avatar" /></span>
-										<span class="header">
-											<span class="from">
-										    	Megan Abott
-										     </span>
-											<span class="time">
-										    	56 min
-										    </span>
-										</span>
-                                        <span class="message">
-                                            Lorem ipsum dolor sit amet consectetur adipiscing elit, et al commore
-                                        </span>  
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-										<span class="avatar"><img src="img/avatar3.jpg" alt="Avatar" /></span>
-										<span class="header">
-											<span class="from">
-										    	Kate Ross
-										     </span>
-											<span class="time">
-										    	3 hours
-										    </span>
-										</span>
-                                        <span class="message">
-                                            Lorem ipsum dolor sit amet consectetur adipiscing elit, et al commore
-                                        </span>  
-                                    </a>
-                                </li>
-								<li>
-                                    <a href="#">
-										<span class="avatar"><img src="img/avatar4.jpg" alt="Avatar" /></span>
-										<span class="header">
-											<span class="from">
-										    	Julie Blank
-										     </span>
-											<span class="time">
-										    	yesterday
-										    </span>
-										</span>
-                                        <span class="message">
-                                            Lorem ipsum dolor sit amet consectetur adipiscing elit, et al commore
-                                        </span>  
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-										<span class="avatar"><img src="img/avatar5.jpg" alt="Avatar" /></span>
-										<span class="header">
-											<span class="from">
-										    	Jane Sanders
-										     </span>
-											<span class="time">
-										    	Jul 25, 2012
-										    </span>
-										</span>
-                                        <span class="message">
-                                            Lorem ipsum dolor sit amet consectetur adipiscing elit, et al commore
-                                        </span>  
-                                    </a>
-                                </li>
-								<li>
-                            		<a class="dropdown-menu-sub-footer">View all messages</a>
-								</li>	
-							</ul>
-						</li>
-						<!-- end: Message Dropdown -->
-						<li>
-							<a class="btn" href="#">
-								<i class="icon-wrench"></i>
-							</a>
-						</li>
-						<!-- start: User Dropdown -->
-						<li class="dropdown">
-							<a class="btn account dropdown-toggle" data-toggle="dropdown" href="#">
-								<div class="avatar"><img src="img/avatar.jpg" alt="Avatar" /></div>
-								<div class="user">
-									<span class="hello">Welcome!</span>
-									<span class="name">Łukasz Holeczek</span>
-								</div>
-							</a>
-							<ul class="dropdown-menu">
-								<li class="dropdown-menu-title">
-									
+									<div class="dropdown-title">You have 4 new notification</div>
 								</li>
-								<li><a href="#"><i class="icon-user"></i> Profile</a></li>
-								<li><a href="#"><i class="icon-cog"></i> Settings</a></li>
-								<li><a href="#"><i class="icon-envelope"></i> Messages</a></li>
-								<li><a href="login.html"><i class="icon-off"></i> Logout</a></li>
+								<li>
+									<div class="notif-center">
+										<a href="#">
+											<div class="notif-icon notif-primary"> <i class="la la-user-plus"></i> </div>
+											<div class="notif-content">
+												<span class="block">
+													New user registered
+												</span>
+												<span class="time">5 minutes ago</span> 
+											</div>
+										</a>
+										<a href="#">
+											<div class="notif-icon notif-success"> <i class="la la-comment"></i> </div>
+											<div class="notif-content">
+												<span class="block">
+													Rahmad commented on Admin
+												</span>
+												<span class="time">12 minutes ago</span> 
+											</div>
+										</a>
+										<a href="#">
+											<div class="notif-img"> 
+												<img src="assets/img/profile2.jpg" alt="Img Profile">
+											</div>
+											<div class="notif-content">
+												<span class="block">
+													Reza send messages to you
+												</span>
+												<span class="time">12 minutes ago</span> 
+											</div>
+										</a>
+										<a href="#">
+											<div class="notif-icon notif-danger"> <i class="la la-heart"></i> </div>
+											<div class="notif-content">
+												<span class="block">
+													Farrah liked Admin
+												</span>
+												<span class="time">17 minutes ago</span> 
+											</div>
+										</a>
+									</div>
+								</li>
+								<li>
+									<a class="see-all" href="javascript:void(0);"> <strong>See all notifications</strong> <i class="la la-angle-right"></i> </a>
+								</li>
 							</ul>
 						</li>
-						<!-- end: User Dropdown -->
+						<li class="nav-item dropdown">
+							<a class="dropdown-toggle profile-pic" data-toggle="dropdown" href="#" aria-expanded="false"> <img src="assets/img/profile.jpg" alt="user-img" width="36" class="img-circle"><span >Hizrian</span></span> </a>
+							<ul class="dropdown-menu dropdown-user">
+								<li>
+									<div class="user-box">
+										<div class="u-img"><img src="assets/img/profile.jpg" alt="user"></div>
+										<div class="u-text">
+											<h4>Hizrian</h4>
+											<p class="text-muted">hello@themekita.com</p><a href="profile.html" class="btn btn-rounded btn-danger btn-sm">View Profile</a></div>
+										</div>
+									</li>
+									<div class="dropdown-divider"></div>
+									<a class="dropdown-item" href="#"><i class="ti-user"></i> My Profile</a>
+									<a class="dropdown-item" href="#"></i> My Balance</a>
+									<a class="dropdown-item" href="#"><i class="ti-email"></i> Inbox</a>
+									<div class="dropdown-divider"></div>
+									<a class="dropdown-item" href="#"><i class="ti-settings"></i> Account Setting</a>
+									<div class="dropdown-divider"></div>
+									<a class="dropdown-item" href="#"><i class="fa fa-power-off"></i> Logout</a>
+								</ul>
+								<!-- /.dropdown-user -->
+							</li>
+						</ul>
+					</div>
+				</nav>
+			</div>
+			<div class="sidebar">
+				<div class="scrollbar-inner sidebar-wrapper">
+					<div class="user">
+						<div class="photo">
+							<img src="assets/img/profile.jpg">
+						</div>
+						<div class="info">
+							<a class="" data-toggle="collapse" href="#collapseExample" aria-expanded="true">
+								<span>
+									Hizrian
+									<span class="user-level">Administrator</span>
+									<span class="caret"></span>
+								</span>
+							</a>
+							<div class="clearfix"></div>
+
+							<div class="collapse in" id="collapseExample" aria-expanded="true" style="">
+								<ul class="nav">
+									<li>
+										<a href="#profile">
+											<span class="link-collapse">My Profile</span>
+										</a>
+									</li>
+									<li>
+										<a href="#edit">
+											<span class="link-collapse">Edit Profile</span>
+										</a>
+									</li>
+									<li>
+										<a href="#settings">
+											<span class="link-collapse">Settings</span>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<ul class="nav">
+						<li class="nav-item">
+							<a href="index.html">
+								<i class="la la-dashboard"></i>
+								<p>Dashboard</p>
+								<span class="badge badge-count">5</span>
+							</a>
+						</li>
+						<li class="nav-item">
+							<a href="components.html">
+								<i class="la la-table"></i>
+								<p>Components</p>
+								<span class="badge badge-count">14</span>
+							</a>
+						</li>
+						<li class="nav-item">
+							<a href="forms.html">
+								<i class="la la-keyboard-o"></i>
+								<p>Forms</p>
+								<span class="badge badge-count">50</span>
+							</a>
+						</li>
+						<li class="nav-item">
+							<a href="tables.html">
+								<i class="la la-th"></i>
+								<p>Tables</p>
+								<span class="badge badge-count">6</span>
+							</a>
+						</li>
+						<li class="nav-item">
+							<a href="notifications.html">
+								<i class="la la-bell"></i>
+								<p>Notifications</p>
+								<span class="badge badge-success">3</span>
+							</a>
+						</li>
+						<li class="nav-item active">
+							<a href="typography.html">
+								<i class="la la-font"></i>
+								<p>Typography</p>
+								<span class="badge badge-danger">25</span>
+							</a>
+						</li>
+						<li class="nav-item">
+							<a href="icons.html">
+								<i class="la la-fonticons"></i>
+								<p>Icons</p>
+							</a>
+						</li>
+						<li class="nav-item update-pro">
+							<button  data-toggle="modal" data-target="#modalUpdate">
+								<i class="la la-hand-pointer-o"></i>
+								<p>Update To Pro</p>
+							</button>
+						</li>
 					</ul>
 				</div>
-				<!-- end: Header Menu -->
-				
+			</div>
+			<div class="main-panel">
+				<div class="content">
+					<div class="container-fluid">
+						<h4 class="page-title">Typography</h4>
+						<div class="row">
+							<div class="col-md-12">
+								<div class="card">
+									<div class="card-header">
+										<div class="card-title">Card Title</div>
+										<div class="card-category">Card Category</div>
+									</div>
+									<div class="card-body">
+										<table class="table table-typo">
+											<tbody>
+												<tr>
+													<td>
+														<p>Header 1</p>
+
+													</td>
+													<td><span class="h1">h1. Bootstrap heading</span></td>
+												</tr>
+												<tr>
+													<td>
+														<p>Header 2</p>
+
+													</td>
+													<td><span class="h2">h2. Bootstrap heading</span></td>
+												</tr>
+												<tr>
+													<td>
+														<p>Header 3</p>
+
+													</td>
+													<td><span class="h3">h3. Bootstrap heading</span></td>
+												</tr>
+												<tr>
+													<td>
+														<p>Header 4</p>
+
+													</td>
+													<td><span class="h4">h4. Bootstrap heading</span></td>
+												</tr>
+												<tr>
+													<td>
+														<p>Header 5</p>
+
+													</td>
+													<td><span class="h5">h5. Bootstrap heading</span></td>
+												</tr>
+												<tr>
+													<td>
+														<p>Header 5</p>
+
+													</td>
+													<td><span class="h6">h6. Bootstrap heading</span></td>
+												</tr>
+												<tr>
+													<td>
+														<p>Paragraph</p>
+
+													</td>
+													<td><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p></span></td>
+												</tr>
+												<tr>
+													<td>
+														<p>Paragraph Lead</p>
+
+													</td>
+													<td><p class="lead">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p></td>
+												</tr>
+												<tr>
+													<td>
+														<p>Quote</p>
+
+													</td>
+													<td><blockquote>
+														<p class="blockquote blockquote-primary">
+															"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+															<br>
+															<br>
+															<small>
+																- Noaa
+															</small>
+														</p>
+													</blockquote></td>
+												</tr>
+												<tr>
+													<td>
+														<p>Primary Text</p>
+
+													</td>
+													<td><p class="text-primary">Lorem Ipsum is simply dummy text of the printing and typesetting industry...</p></span></td>
+												</tr>
+												<tr>
+													<td>
+														<p>Info Text</p>
+
+													</td>
+													<td><p class="text-info">Lorem Ipsum is simply dummy text of the printing and typesetting industry...</p></span></td>
+												</tr>
+												<tr>
+													<td>
+														<p>Success Text</p>
+
+													</td>
+													<td><p class="text-success">Lorem Ipsum is simply dummy text of the printing and typesetting industry...</p></span></td>
+												</tr>
+												<tr>
+													<td>
+														<p>Warning Text</p>
+
+													</td>
+													<td><p class="text-warning">Lorem Ipsum is simply dummy text of the printing and typesetting industry...</p></span></td>
+												</tr>
+												<tr>
+													<td>
+														<p>Danger Text</p>
+
+													</td>
+													<td><p class="text-danger">Lorem Ipsum is simply dummy text of the printing and typesetting industry...</p></span></td>
+												</tr>
+												<tr>
+													<td>
+														<p>Muted Text</p>
+
+													</td>
+													<td><p class="text-muted">Lorem Ipsum is simply dummy text of the printing and typesetting industry...</p></span></td>
+												</tr>
+											</tbody>
+										</table>
+									</div>
+									<div class="card-footer">
+										<hr>
+										Card Footer
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<footer class="footer">
+					<div class="container-fluid">
+						<nav class="pull-left">
+							<ul class="nav">
+								<li class="nav-item">
+									<a class="nav-link" href="#">
+										ThemeKita
+									</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="#">
+										Help
+									</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="#license/#free-item">
+										Licenses
+									</a>
+								</li>
+							</ul>
+						</nav>
+						<div class="copyright ml-auto">
+							2018, made with <i class="la la-heart heart text-danger"></i> by <a href="#">ThemeKita</a> - More Templates <a href="http://www.cssmoban.com/" target="_blank" title="模板之家">模板之家</a> - Collect from <a href="http://www.cssmoban.com/" title="网页模板" target="_blank">网页模板</a></div>				
+					</div>
+				</footer>
 			</div>
 		</div>
 	</div>
-	<!-- start: Header -->
-	
-		<div class="container-fluid-full">
-		<div class="row-fluid">
-				
-			<!-- start: Main Menu -->
-			<div id="sidebar-left" class="span2">
-				
-				<div class="row-fluid actions">
-													
-					<input type="text" class="search span12" placeholder="..." />
-				
-				</div>	
-				
-				<div class="nav-collapse sidebar-nav">
-					<ul class="nav nav-tabs nav-stacked main-menu">
-						<li><a href="index.html"><i class="icon-bar-chart"></i><span class="hidden-tablet"> Dashboard</span></a></li>	
-						<li><a href="ui.html"><i class="icon-eye-open"></i><span class="hidden-tablet"> UI Features</span></a></li>
-						<li><a href="widgets.html"><i class="icon-dashboard"></i><span class="hidden-tablet"> Widgets</span></a></li>
-						<li>
-							<a class="dropmenu" href="#"><i class="icon-folder-close-alt"></i><span class="hidden-tablet"> Example Pages</span> <span class="label">3</span></a>
-							<ul>
-								<li><a class="submenu" href="infrastructure.html"><i class="icon-hdd"></i><span class="hidden-tablet"> Infrastructure</span></a></li>
-								<li><a class="submenu" href="messages.html"><i class="icon-envelope"></i><span class="hidden-tablet"> Messages</span></a></li>
-								<li><a class="submenu" href="tasks.html"><i class="icon-tasks"></i><span class="hidden-tablet"> Tasks</span></a></li>
-							</ul>	
-						</li>
-						<li><a href="form.html"><i class="icon-edit"></i><span class="hidden-tablet"> Forms</span></a></li>
-						<li><a href="chart.html"><i class="icon-list-alt"></i><span class="hidden-tablet"> Charts</span></a></li>
-						<li><a href="typography.html"><i class="icon-font"></i><span class="hidden-tablet"> Typography</span></a></li>
-						<li><a href="gallery.html"><i class="icon-picture"></i><span class="hidden-tablet"> Gallery</span></a></li>
-						<li><a href="table.html"><i class="icon-align-justify"></i><span class="hidden-tablet"> Tables</span></a></li>
-						<li><a href="calendar.html"><i class="icon-calendar"></i><span class="hidden-tablet"> Calendar</span></a></li>
-						<li><a href="file-manager.html"><i class="icon-folder-open"></i><span class="hidden-tablet"> File Manager</span></a></li>
-						<li><a href="icon.html"><i class="icon-star"></i><span class="hidden-tablet"> Icons</span></a></li>
-						<li><a href="login.html"><i class="icon-lock"></i><span class="hidden-tablet"> Login Page</span></a></li>
-					</ul>
+	<!-- Modal -->
+	<div class="modal fade" id="modalUpdate" tabindex="-1" role="dialog" aria-labelledby="modalUpdatePro" aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered" role="document">
+			<div class="modal-content">
+				<div class="modal-header bg-primary">
+					<h6 class="modal-title"><i class="la la-frown-o"></i> Under Development</h6>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body text-center">									
+					<p>Currently the pro version of the <b>Ready Dashboard</b> Bootstrap is in progress development</p>
+					<p>
+					<b>We'll let you know when it's done</b></p>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
 				</div>
 			</div>
-			<!-- end: Main Menu -->
-						
-			<!-- start: Content -->
-			<div id="content" class="span10">
-			
-			
-			<div class="row-fluid">
-				<div class="box span9">
-					<div class="box-header">
-						<h2><i class="icon-font"></i><span class="break"></span>Typography</h2>
-					</div>
-					<div class="box-content">
-						  <div class="page-header">
-							  <h1>Typography <small>Headings, paragraphs, lists, and other inline type elements</small></h1>
-						  </div>     
-						  <div class="row-fluid">            
-							  <div class="span4">
-								<h3>Sample text and paragraphs</h3>
-								<p>
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur bibendum ornare dolor, quis ullamcorper ligula sodales at. Nulla tellus elit, varius non commodo eget, mattis vel eros. In sed ornare nulla. Donec consectetur, velit a pharetra ultricies, diam lorem lacinia risus, ac commodo orci erat eu massa. Sed sit amet nulla ipsum. Donec felis mauris, vulputate sed tempor at, aliquam a ligula. Pellentesque non pulvinar nisi.
-								</p>
-								<p>
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur bibendum ornare dolor, quis ullamcorper ligula sodales at. Nulla tellus elit, varius non commodo eget, mattis vel eros. In sed ornare nulla. Donec consectetur, velit a pharetra ultricies, diam lorem lacinia risus, ac commodo orci erat eu massa. Sed sit amet nulla ipsum. Donec felis mauris, vulputate sed tempor at, aliquam a ligula. Pellentesque non pulvinar nisi.
-								</p>
-							  </div>
-							  <div class="span4">
-								<h3>Example body text</h3>
-								<p>Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-								<p>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Donec sed odio dui.</p>
-							  </div>
-							  <div class="span4 ">
-								<div class="well">
-								  <h1>h1. Heading 1</h1>
-								  <h2>h2. Heading 2</h2>
-								  <h3>h3. Heading 3</h3>
-								  <h4>h4. Heading 4</h4>
-								  <h5>h5. Heading 5</h5>
-								  <h6>h6. Heading 6</h6>
-								</div>
-							  </div>
-						  </div><!--/row -->                           
-						
-						  <div class="row-fluid">
-							  <div class="span12">
-								  <h3>Example blockquotes</h3>
-								  <div class="row-fluid">
-									<div class="span6">
-									  <p>Default blockquotes are styled as such:</p>
-									  <blockquote>
-										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante venenatis.</p>
-										<small>Someone famous in <cite title="">Body of work</cite></small>
-									  </blockquote>
-									</div>
-									<div class="span6">
-									  <p>You can always float your blockquote to the right:</p>
-									  <blockquote class="pull-right">
-										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante venenatis.</p>
-										<small>Someone famous in <cite title="">Body of work</cite></small>
-									  </blockquote>
-									</div>
-								  </div>
-							  </div>
-						  </div>
-						  <div class="row-fluid">
-								<div class="span6">
-								<h3>More Sample Text</h3>
-								<p>
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur bibendum ornare dolor, quis ullamcorper ligula sodales at. Nulla tellus elit, varius non commodo eget, mattis vel eros. In sed ornare nulla. Donec consectetur, velit a pharetra ultricies, diam lorem lacinia risus, ac commodo orci erat eu massa. Sed sit amet nulla ipsum. Donec felis mauris, vulputate sed tempor at, aliquam a ligula. Pellentesque non pulvinar nisi.
-								</p>
-								</div>
-								<div class="span6">
-								<h3>And Paragraphs</h3>
-								<p>
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur bibendum ornare dolor, quis ullamcorper ligula sodales at. Nulla tellus elit, varius non commodo eget, mattis vel eros. In sed ornare nulla. Donec consectetur, velit a pharetra ultricies, diam lorem lacinia risus, ac commodo orci erat eu massa. Sed sit amet nulla ipsum. Donec felis mauris, vulputate sed tempor at, aliquam a ligula. Pellentesque non pulvinar nisi.
-								</p>
-							  </div>
-						  </div>
-						  <div class="row-fluid">
-							  <div class="span12">
-								<h2>Example use of Tooltips</h2>
-								<p>Hover over the links below to see tooltips:</p>
-								<div class="tooltip-demo well">
-								  <p class="muted" style="margin-bottom: 0;">Tight pants next level keffiyeh <a href="#" data-rel="tooltip" data-original-title="first tooltip">you probably</a> haven't heard of them. Photo booth beard raw denim letterpress vegan messenger bag stumptown. Farm-to-table seitan, mcsweeney's fixie sustainable quinoa 8-bit american appadata-rel <a href="#" data-rel="tooltip" data-original-title="Another tooltip">have a</a> terry richardson vinyl chambray. Beard stumptown, cardigans banh mi lomo thundercats. Tofu biodiesel williamsburg marfa, four loko mcsweeney's cleanse vegan chambray. A <a href="#" data-rel="tooltip" data-original-title="Another one here too">really ironic</a> artisan whatever keytar, scenester farm-to-table banksy Austin <a href="#" data-rel="tooltip" data-original-title="The last tip!">twitter handle</a> freegan cred raw denim single-origin coffee viral.
-								  </p>
-								</div>                                  
-							  </div>
-						  </div>	 
-					  </div>
-				</div><!--/span-->
-				
-				<div class="box span3">
-					<div class="box-header" data-original-title="">
-						<h2><i class="icon-list"></i><span class="break"></span>Unordered List</h2>
-					</div>
-					<div class="box-content">
-						<ul>
-						  <li>Lorem ipsum dolor sit amet</li>
-						  <li>Consectetur adipiscing elit</li>
-						  <li>Integer molestie lorem at massa</li>
-						  <li>Facilisis in pretium nisl aliquet</li>
-						  <li>Nulla volutpat aliquam velit
-							<ul>
-							  <li>Phasellus iaculis neque</li>
-							  <li>Purus sodales ultricies</li>
-							  <li>Vestibulum laoreet porttitor sem</li>
-							  <li>Ac tristique libero volutpat at</li>
-							</ul>
-						  </li>
-						  <li>Faucibus porta lacus fringilla vel</li>
-						  <li>Aenean sit amet erat nunc</li>
-						  <li>Eget porttitor lorem</li>
-						</ul>            
-					</div>
-				</div><!--/span-->
-				
-				<div class="box span3">
-					<div class="box-header" data-original-title="">
-						<h2><i class="icon-list"></i><span class="break"></span>Ordered List</h2>
-					</div>
-					<div class="box-content">
-						<ol>
-						  <li>Lorem ipsum dolor sit amet</li>
-						  <li>Consectetur adipiscing elit</li>
-						  <li>Integer molestie lorem at massa</li>
-						  <li>Facilisis in pretium nisl aliquet</li>
-						  <li>Nulla volutpat aliquam velit</li>
-						  <li>Faucibus porta lacus fringilla vel</li>
-						  <li>Aenean sit amet erat nunc</li>
-						  <li>Eget porttitor lorem</li>
-						</ol>           
-					</div>
-				</div><!--/span-->
-				
-				<div class="box span3">
-					<div class="box-header">
-						<h2><i class="icon-list"></i>Description List</h2>
-					</div>
-					<div class="box-content">
-						<dl>
-						  <dt>Description lists</dt>
-						  <dd>A description list is perfect for defining terms.</dd>
-						  <dt>Euismod</dt>
-						  <dd>Vestibulum id ligula porta felis euismod semper eget lacinia odio sem nec elit.</dd>
-						  <dd>Donec id elit non mi porta gravida at eget metus.</dd>
-						  <dt>Malesuada porta</dt>
-						  <dd>Etiam porta sem malesuada magna mollis euismod.</dd>
-						</dl>            
-					</div>
-				</div><!--/span-->
-				
-				
-			
-			</div><!--/row-->
-    
-					
-			</div>
-			<!-- end: Content -->
-				
-				</div><!--/fluid-row-->
-				
-		<div class="modal hide fade" id="myModal">
-			<div class="modal-header">
-				<button type="button" class="close" data-dismiss="modal">×</button>
-				<h3>Settings</h3>
-			</div>
-			<div class="modal-body">
-				<p>Here settings can be configured...</p>
-			</div>
-			<div class="modal-footer">
-				<a href="#" class="btn" data-dismiss="modal">Close</a>
-				<a href="#" class="btn btn-primary">Save changes</a>
-			</div>
 		</div>
-		
-		<div class="clearfix"></div>
-		
-		<footer>
-			<p>
-				<span style="text-align:left;float:left">Copyright &copy; 2014.Company name All rights reserved.More Templates <a href="http://www.cssmoban.com/" target="_blank" title="模板之家">模板之家</a> - Collect from <a href="http://www.cssmoban.com/" title="网页模板" target="_blank">网页模板</a></span>
-			</p>
-
-		</footer>
-				
-	</div><!--/.fluid-container-->
-
-	<!-- start: JavaScript-->
-		<script src="js/jquery-1.10.2.min.js"></script>
-	<script src="js/jquery-migrate-1.2.1.min.js"></script>	
-		<script src="js/jquery-ui-1.10.3.custom.min.js"></script>	
-		<script src="js/jquery.ui.touch-punch.js"></script>	
-		<script src="js/modernizr.js"></script>	
-		<script src="js/bootstrap.min.js"></script>	
-		<script src="js/jquery.cookie.js"></script>	
-		<script src='js/fullcalendar.min.js'></script>	
-		<script src='js/jquery.dataTables.min.js'></script>
-		<script src="js/excanvas.js"></script>
-	<script src="js/jquery.flot.js"></script>
-	<script src="js/jquery.flot.pie.js"></script>
-	<script src="js/jquery.flot.stack.js"></script>
-	<script src="js/jquery.flot.resize.min.js"></script>
-	<script src="js/jquery.flot.time.js"></script>
-		
-		<script src="js/jquery.chosen.min.js"></script>	
-		<script src="js/jquery.uniform.min.js"></script>		
-		<script src="js/jquery.cleditor.min.js"></script>	
-		<script src="js/jquery.noty.js"></script>	
-		<script src="js/jquery.elfinder.min.js"></script>	
-		<script src="js/jquery.raty.min.js"></script>	
-		<script src="js/jquery.iphone.toggle.js"></script>	
-		<script src="js/jquery.uploadify-3.1.min.js"></script>	
-		<script src="js/jquery.gritter.min.js"></script>	
-		<script src="js/jquery.imagesloaded.js"></script>	
-		<script src="js/jquery.masonry.min.js"></script>	
-		<script src="js/jquery.knob.modified.js"></script>	
-		<script src="js/jquery.sparkline.min.js"></script>	
-		<script src="js/counter.min.js"></script>	
-		<script src="js/raphael.2.1.0.min.js"></script>
-	<script src="js/justgage.1.0.1.min.js"></script>	
-		<script src="js/jquery.autosize.min.js"></script>	
-		<script src="js/retina.js"></script>
-		<script src="js/jquery.placeholder.min.js"></script>
-		<script src="js/wizard.min.js"></script>
-		<script src="js/core.min.js"></script>	
-		<script src="js/charts.min.js"></script>	
-		<script src="js/custom.min.js"></script>
-	<!-- end: JavaScript-->
-	
-
+	</div>
 </body>
+<script src="assets/js/core/jquery.3.2.1.min.js"></script>
+<script src="assets/js/plugin/jquery-ui-1.12.1.custom/jquery-ui.min.js"></script>
+<script src="assets/js/core/popper.min.js"></script>
+<script src="assets/js/core/bootstrap.min.js"></script>
+<script src="assets/js/plugin/chartist/chartist.min.js"></script>
+<script src="assets/js/plugin/chartist/plugin/chartist-plugin-tooltip.min.js"></script>
+<script src="assets/js/plugin/bootstrap-notify/bootstrap-notify.min.js"></script>
+<script src="assets/js/plugin/bootstrap-toggle/bootstrap-toggle.min.js"></script>
+<script src="assets/js/plugin/jquery-mapael/jquery.mapael.min.js"></script>
+<script src="assets/js/plugin/jquery-mapael/maps/world_countries.min.js"></script>
+<script src="assets/js/plugin/chart-circle/circles.min.js"></script>
+<script src="assets/js/plugin/jquery-scrollbar/jquery.scrollbar.min.js"></script>
+<script src="assets/js/ready.min.js"></script>
 </html>
