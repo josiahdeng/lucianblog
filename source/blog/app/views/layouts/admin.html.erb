@@ -13,6 +13,13 @@
 </head>
 
 <body>
+  <%= render partial: 'admin/common/header' %>
+<div class="container-fluid-full">
+  <div class="row-fluid">
+  <%= render partial: 'admin/common/menu' %>
   <%= yield %>
+  </div>
+  <%= render partial: 'admin/common/footer' %>
+</div>
 </body>
 </html>
